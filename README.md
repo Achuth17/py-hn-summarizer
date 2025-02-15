@@ -22,6 +22,7 @@ python summarizer.py -s <post_id>
 #### Sample
 ```
 python summarizer.py -s 43018572
+
 Post: https://techcrunch.com/2025/02/11/tumblr-to-join-the-fediverse-after-wordpress-migration-completes/ 
 
 HN Thread: https://news.ycombinator.com/item?id=43018572

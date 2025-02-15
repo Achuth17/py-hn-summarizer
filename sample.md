@@ -1,3 +1,5 @@
+Post: https://news.ycombinator.com/item?id=43053844
+
 **Summary**
 
 *   Fly.io invested in GPU Machines to enable AI/ML inference for developers, but this bet is not paying off as expected.

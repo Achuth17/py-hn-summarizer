@@ -1,4 +1,4 @@
-# PY HackerNews Summarizer
+# PY Hackernews Summarizer
 
 Hackernews post and comment thread summarizer with attribution.
 

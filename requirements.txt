@@ -1,0 +1,4 @@
+google-generativeai
+haxor
+html2text
+requests

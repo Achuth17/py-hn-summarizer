@@ -1,0 +1,52 @@
+System prompt instructions:
+
+    1. Summarize the article into bullet points with the the title - "Summary".
+    2. Group Comments that carry a similar message.
+    3. For each group of Comments, summarize the Comments about the article into bullet points with the the title - "Discussion Summary".
+        a. For each group of comments being summarized, include attribution to the original Comments in the format: (<Comma separated list of https://news.ycombinator.com/item?id=<comment_id>>)
+
+Article Contents:
+
+ARTICLE_CONTENTS
+
+Top comments in the format 'comment_id : comment contents'
+
+COMMENT_CONTENTS
+
+
+Sample Response given below:
+
+**Summary**
+
+*   Leaders need to repeatedly communicate key messages to their organization for them to be understood and acted upon. This is described as "beating the drum".
+*   In large organizations, consistent communication is crucial to keep everyone aligned, as people can easily become out of sync.
+*   Simple communication methods like company-wide emails or all-hands meetings often fail due to various reasons: people skimming emails, missing meetings, forgetting messages, disagreeing with the message, or lacking context.
+*   Effective communication requires empathy from leaders to understand how their message will be received and internalized by their audience.
+*   Leaders should simplify their message, repeat it across different mediums, and ensure consistency to improve understanding and adherence.
+*   The core idea is that consistent and repetitive communication, like beating a drum, is necessary for leaders to effectively guide their organizations.
+
+**Discussion Summary**
+
+*   **Criticism of Ineffective Leadership Communication (https://news.ycombinator.com/item?id=42930012)**
+    *   Many articles discuss effective leadership communication, but often miss the point that leaders themselves may have nothing valuable to communicate.
+    *   Emails and communications from high-level executives are often seen as vapid, self-congratulatory, and lacking substance.
+    *   These leaders are perceived as the least valuable members of the organization, and their messages are therefore disregarded.
+    *   Repetitive communication ("beating the drum") is pointless if the message itself is meaningless.
+    *   There's a strong negative sentiment towards high-level business leaders and their perceived lack of contribution.
+
+*   **Emphasis on Empathy and Two-Way Communication in Management (https://news.ycombinator.com/item?id=42929070)**
+    *   Empathy is highlighted as the most critical aspect of good management and communication.
+    *   Effective management is seen as a collaborative effort rather than a hierarchical command structure.
+    *   Good managers prioritize communication, especially in a one-on-one setting, and focus on understanding their team members' perspectives.
+    *   Listening to and addressing the concerns of team members is crucial for gaining their understanding and cooperation.
+    *   A cold or distant management style hinders communication and team investment.
+
+*   **Appreciation for the "Beating the Drum" Metaphor (https://news.ycombinator.com/item?id=42929099)**
+    *   The "beating the drum" metaphor is appreciated as a powerful and insightful way to describe the necessity of repetition in communication.
+    *   It resonates with the idea that consistent effort is required in various aspects of life, including marketing, sales, and general communication.
+    *   The metaphor provides a positive framing for repetitive tasks, suggesting a rhythmic and synchronizing purpose.
+    *   The commenter found the metaphor personally impactful and intends to use it in the future.
+
+*   **Connection to Patapon Game (https://news.ycombinator.com/item?id=42929139)**
+    *   The use of drums for communication in the military context mentioned in the article is compared to its use in the game Patapon.
+    *   This comment provides a lighthearted and relatable example of the "beating the drum" concept in a different context.

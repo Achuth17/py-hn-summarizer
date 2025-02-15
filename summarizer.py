@@ -26,6 +26,8 @@ def main():
     content = content.replace("COMMENT_CONTENTS", serialized_comments)
 
     gemini_summary = gemini_client.ask_gemini(content)
+    print("Post: {} \n".format(story.url))
+    print("HN Thread: https://news.ycombinator.com/item?id={}\n".format(args.story_id))
     print(gemini_summary)
 
 

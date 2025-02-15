@@ -1,6 +1,6 @@
 # PY HackerNews Summarizer
 
-Hackernews post and comment thread summarizer
+Hackernews post and comment thread summarizer with attribution.
 
 Usage
 =====

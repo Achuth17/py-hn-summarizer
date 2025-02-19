@@ -12,6 +12,14 @@ class HNClient:
 
     def get_story(self, id: int):
         return self.hn.get_item(id, expand=True)
+    
+    def get_top_story_ids(self, count: int):        
+        top_stories = self.hn.top_stories(limit=count)
+        ids = []
+        for story in top_stories:
+            if story.item_type == 'story':
+                ids.append(story.item_id)
+        return ids
 
     def get_top_story_urls(self, count: int):        
         top_stories = self.hn.top_stories(limit=count)
@@ -21,9 +29,13 @@ class HNClient:
                 urls.append(story.url)
         return urls
     
-    def get_top_story_comments(self, item: Item):
+    def get_top_story_comments(self, item: Item, count: int = 50):
         comments = []
-        for comment in item.kids:            
+        if not item.kids:
+            return comments
+        for comment in item.kids:
+            if len(comments) == 50:
+                break
             if not comment.text or comment.deleted or comment.dead:
                 continue
             comments.append(comment)

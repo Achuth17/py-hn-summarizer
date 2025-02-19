@@ -16,12 +16,17 @@ export GEMINI_API_KEY=<INSERT-API-KEY>
 
 ### Summarize Hackernews Posts
 ```
-python summarizer.py -s <post_id>
+python main.py -s <post_id>
+```
+
+### Summarize Top N Hackernews Posts
+```
+python main.py -t 2
 ```
 
 #### Sample
 ```
-python summarizer.py -s 43018572
+python main.py -s 43018572
 
 Post: https://techcrunch.com/2025/02/11/tumblr-to-join-the-fediverse-after-wordpress-migration-completes/ 
 

@@ -1,3 +1,7 @@
+absl-py
+asyncio
+flask
+flask-requests
 google-generativeai
 haxor
 html2text

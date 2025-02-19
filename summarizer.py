@@ -65,7 +65,7 @@ class HnSummarizer():
             if skip_response:
                 return ""
             else:
-                self._read_from_library(story_id)
+                return self._read_from_library(story_id)
         markdownBuilder = MarkdownBuilder()
         hn_client = HNClient()
         gemini_client = GeminiClient()

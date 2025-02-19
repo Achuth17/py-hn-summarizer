@@ -22,4 +22,5 @@ if __name__ == '__main__':
     if args.top_posts:
         hn_summarizer.cache_top_posts_summary(args.top_posts)
     else:
-        hn_summarizer.summarize_post(args.story-id)
+        summary = hn_summarizer.summarize_post(args.story_id)
+        logging.info(summary)
